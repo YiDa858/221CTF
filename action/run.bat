@@ -1,0 +1,1 @@
+"D:\phpstudy_pro\Extensions\php\php7.3.4nts\php.exe" "D:\221CTF\action\docker_close.php"

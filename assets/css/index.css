@@ -1,0 +1,54 @@
+#polina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight: 100;
+    background: rgba(0,0,0,0.3);
+    color: #ffc0cb;
+    padding: 2rem;
+    width: 40%;
+    margin: 2rem;
+    float: right;
+    font-size: 1.2rem;
+}
+#polina h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing:.3rem;
+}
+#polina a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0,0,0,0.5);
+    padding:.5rem;
+    transition: .6s background;
+}
+
+#polina a:hover {
+    background: rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width: 500px) {
+    #polina {
+        width: 50%;
+    }
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url("../img/Code_08.mp4");
+    background-size: cover;
+}
+
+.not {
+    color: gray;
+    cursor:pointer;
+    pointer-events: none;
+}

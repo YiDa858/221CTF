@@ -1,0 +1,13 @@
+# 0ctf 2016 piapiapia
+version: "2"
+
+services:
+
+  web:
+    build: ""
+    image: ctftraining/0ctf_2016_unserialize
+    environment:
+      - FLAG=flag{221CTF!!}
+    restart: always
+    ports:
+      - "28491:80"
